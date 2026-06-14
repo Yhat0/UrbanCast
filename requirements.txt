@@ -1,0 +1,19 @@
+# ── Base de datos / geoespacial ──────────────────────────────────
+sqlalchemy>=2.0.0
+psycopg2-binary>=2.9.0
+geopandas>=0.13.0
+geoalchemy2>=0.14.0
+shapely>=2.0.0
+rasterio>=1.3.0
+
+# ── Datos y ciencia ──────────────────────────────────────────────
+numpy>=1.24.0
+pandas>=2.0.0
+scipy>=1.11.0
+scikit-learn>=1.3.0
+statsmodels>=0.14.0
+
+# ── Visualización ────────────────────────────────────────────────
+matplotlib>=3.7.0
+seaborn>=0.12.0
+folium>=0.15.0
