@@ -1,0 +1,51 @@
+# Entorno virtual
+env/
+venv/
+.venv/
+
+# Archivos GeoTIFF (datos pesados)
+GEE_exports/
+*.tif
+*.tiff
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Variables de entorno
+.env
+*.env
+
+# IDEs
+.vscode/
+.idea/
+*.code-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Outputs (se regeneran ejecutando los scripts) ────────────────
+outputs/
+
+# ── Archivos de la raíz generados antes de la reorganización ─────
+outputs_gm_spd/
+outputs_prediccion/
+histograma_global.png
+histogramas_por_año.png
+roc_comparacion_2020.png
+riemann_similitud_2020.png
+riemann_resultados_2020.csv
+mapa_expansion_medellin.html
+mapa_prediccion_2020.html
+
+# ── Scripts descartados (no forman parte del pipeline) ───────────
+spd.py
+monte_carlo_2020.py
+
+# ── Datos crudos (GeoTIFFs pesados) ──────────────────────────────
+data/raw/
